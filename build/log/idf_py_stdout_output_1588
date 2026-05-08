@@ -1,0 +1,18 @@
+Command: ninja all
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app.c.obj
+[2/9] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Dev\esp\VLA\esp-s3-robot\build\bootloader\esp-idf\esptool_py && C:\Users\jimmy\.espressif\python_env\idf5.5_py3.12_env\Scripts\python.exe C:/esp/v5.5.4/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Dev/esp/VLA/esp-s3-robot/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6630 bytes. 0x9d0 bytes (9%) free.
+[3/9] No install step for 'bootloader'
+[4/9] Linking C static library esp-idf\main\libmain.a
+[5/9] Completed 'bootloader'
+[6/9] Generating esp-idf/esp_system/ld/sections.ld
+[7/9] Linking CXX executable ESP-S3-ROBOT.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.12.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Dev/esp/VLA/esp-s3-robot/build/ESP-S3-ROBOT.bin
+[9/9] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Dev\esp\VLA\esp-s3-robot\build\esp-idf\esptool_py && C:\Users\jimmy\.espressif\python_env\idf5.5_py3.12_env\Scripts\python.exe C:/esp/v5.5.4/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Dev/esp/VLA/esp-s3-robot/build/partition_table/partition-table.bin D:/Dev/esp/VLA/esp-s3-robot/build/ESP-S3-ROBOT.bin"
+ESP-S3-ROBOT.bin binary size 0x27800 bytes. Smallest app partition is 0x100000 bytes. 0xd8800 bytes (85%) free.

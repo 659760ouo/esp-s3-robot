@@ -1,5 +1,5 @@
 idf_component_register(
-    SRCS "main.c"
+    SRCS "app.c"
     INCLUDE_DIRS "."
-    REQUIRES cam
+    REQUIRES cam esp32-camera esp_wifi nvs_flash esp_http_server
 )
